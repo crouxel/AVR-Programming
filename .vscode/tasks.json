@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "make",
+      "args": [],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Build the project using make"
+    },
+    {
+      "label": "Build and Flash",
+      "type": "shell",
+      "command": "make",
+      "args": ["flash"],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Flash the project to the microcontroller"
+    }
+  ]
+}

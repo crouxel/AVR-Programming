@@ -6,7 +6,7 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#define DELAYTIME 2                                              /* ms */
+#define DELAYTIME 1000                                             /* ms */
 
 #define LED_PORT                PORTB
 #define LED_DDR                 DDRB

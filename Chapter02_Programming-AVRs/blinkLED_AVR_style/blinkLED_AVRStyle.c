@@ -25,7 +25,7 @@ int main(void) {
     _delay_ms(DELAYTIME);
 
     clearBit(LED_PORT, LED);
-    _delay_ms(DELAYTIME);
+    _delay_ms(5*DELAYTIME);
 
   }
   return 0;                                          /* end mainloop */

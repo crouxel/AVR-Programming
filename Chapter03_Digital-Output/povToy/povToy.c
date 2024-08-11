@@ -7,7 +7,7 @@
 // -------- Functions --------- //
 void POVDisplay(uint8_t oneByte) {
   PORTB = oneByte;
-  _delay_ms(2);
+  _delay_ms(200);
 }
 
 int main(void) {

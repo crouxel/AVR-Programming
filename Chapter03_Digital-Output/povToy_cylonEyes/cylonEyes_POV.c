@@ -9,7 +9,7 @@ The only change here is in DELAYTIME.
 #include <avr/io.h>                        /* Defines pins, ports, etc */
 #include <util/delay.h>                     /* Functions to waste time */
 
-#define DELAYTIME 2                                    /* milliseconds */
+#define DELAYTIME 200                                    /* milliseconds */
 
 int main(void) {
   uint8_t i=0;

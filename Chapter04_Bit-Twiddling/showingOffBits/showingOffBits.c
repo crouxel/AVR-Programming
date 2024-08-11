@@ -42,18 +42,6 @@ int main(void) {
     }
     _delay_ms(5 * DELAYTIME);                                 /* pause */
 
-                                   /* Toggle "random" bits for a while */
-    for (repetitions = 0; repetitions < 75; repetitions++) {
-                                          /* "random" number generator */
-      randomNumber = 2053 * randomNumber + 13849;
-                                      /* low three bits from high byte */
-      whichLED = (randomNumber >> 8) & 0b00000111;
-      LED_PORT ^= (1 << whichLED);                   /* toggle our LED */
-      _delay_ms(DELAYTIME);
-    }
-    LED_PORT = 0;                                      /* all LEDs off */
-    _delay_ms(5 * DELAYTIME);                                 /* pause */
-
-  }                                                  /* End event loop */
+  }
   return 0;                            /* This line is never reached */
 }
