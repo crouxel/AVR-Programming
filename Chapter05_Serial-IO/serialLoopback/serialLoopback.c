@@ -20,7 +20,6 @@ int main(void) {
 
   // ------ Event loop ------ //
   while (1) {
-
     serialCharacter = receiveByte();
     transmitByte(serialCharacter);
     LED_PORT = serialCharacter;

@@ -1,4 +1,9 @@
 {
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.inheritEnv": true
+    "terminal.integrated.inheritEnv": true,
+    "files.associations": {
+        "*.cps": "javascript",
+        "*.py": "python",
+        "setbaud.h": "c"
+    }
 }
