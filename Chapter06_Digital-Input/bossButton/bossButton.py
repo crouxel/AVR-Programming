@@ -9,9 +9,7 @@ import webbrowser
 SERIAL_PORT = 'COM5' 
 BAUD_RATE = 9600
 
-BOSS_SITE = "http://www.cartalk.com/content/boss-redirect"
-## or perhaps more topical...
-XKCD = "http://xkcd.com/353/"
+BOSS_SITE = "http://perplexity.com"
 
 
 
